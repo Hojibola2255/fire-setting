@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "524026974659",
+    "project_id": "fire-setting",
+    "storage_bucket": "fire-setting.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524026974659:android:271d8a5b9750bdcf3a6d76",
+        "android_client_info": {
+          "package_name": "com.example.fire_setting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpWEwV1LRZ6_GSsaF_y_N9qXQhwopQKTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
