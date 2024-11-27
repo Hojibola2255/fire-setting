@@ -1,4 +1,3 @@
-
 import 'package:fire_setting/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 

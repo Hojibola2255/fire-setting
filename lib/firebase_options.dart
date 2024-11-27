@@ -19,7 +19,7 @@ class DefaultFirebaseOptions {
     if (kIsWeb) {
       throw UnsupportedError(
         'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
+            'you can reconfigure this by running the FlutterFire CLI again.',
       );
     }
     switch (defaultTargetPlatform) {
@@ -30,17 +30,17 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+              'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+              'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+              'you can reconfigure this by running the FlutterFire CLI again.',
         );
       default:
         throw UnsupportedError(
@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBpWEwV1LRZ6_GSsaF_y_N9qXQhwopQKTw',
-    appId: '1:524026974659:android:271d8a5b9750bdcf3a6d76',
-    messagingSenderId: '524026974659',
-    projectId: 'fire-setting',
-    storageBucket: 'fire-setting.firebasestorage.app',
+    apiKey: 'AIzaSyAaHz519qd2RwNDLOPxKJ5tp-XvVCm7KL4',
+    appId: '1:338336504050:android:8484039e17f3924529986b',
+    messagingSenderId: '338336504050',
+    projectId: 'firesetting-78a29',
+    storageBucket: 'firesetting-78a29.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBp69zSwSAotStR_lY19pMmaXTkTX-DWHM',
-    appId: '1:524026974659:ios:8e73ce4422bd8ed63a6d76',
-    messagingSenderId: '524026974659',
-    projectId: 'fire-setting',
-    storageBucket: 'fire-setting.firebasestorage.app',
-    iosBundleId: 'com.example.fireSetting',
+    apiKey: 'AIzaSyBiEEaNWDG5rgJn1GffUclMP-c8Bj83mms',
+    appId: '1:338336504050:ios:a9fd6d14b409fd6c29986b',
+    messagingSenderId: '338336504050',
+    projectId: 'firesetting-78a29',
+    storageBucket: 'firesetting-78a29.firebasestorage.app',
+    iosBundleId: 'com.nextgen.firesetting',
   );
 }
